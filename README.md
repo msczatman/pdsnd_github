@@ -23,4 +23,4 @@ Birth Year_
 
 The Statistics is created to draw insights from the data given.
 
-numpy and pandas libraries are used in the project to enhance statistics obtained from the data.
+\* Please note: numpy and pandas libraries are used in the project to enhance statistics obtained from the data.\*
