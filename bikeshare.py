@@ -30,15 +30,15 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city = questionuserchoice(cities,
-        "choose the city: 'chicago', 'new york city' or 'washington' > ")
+        "choose the city and please type the name in lowercase: 'chicago', 'new york city' or 'washington' > ")
 
     # get user input for month (all, january, february, ... , june)
     month = questionuserchoice(months,
-        "choose all months or one month:'all' or 'e.g. january', 'february...'> ")
+        "choose all months or one month and please type the name in lowercase:'all' or 'e.g. january', 'february...'> ")
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     day = questionuserchoice(days,
-        "Please enter day: e.g. 'monday','...' or 'all' > ")
+        "Please enter day and please type the name in lowercase: e.g. 'monday','...' or 'all' > ")
 
 
     print('-'*40)
