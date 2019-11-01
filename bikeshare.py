@@ -182,10 +182,10 @@ def user_stats(df):
     print('-'*40)
 
 def showingdata(df):
-    lenrow = df.shape[0]
+    lengthrow = df.shape[0]
 
     #  counting nr of rows till 5
-    for i in range(0, lenrow, 5):
+    for i in range(0, lengthrow, 5):
 
         yes = input('\nMay I show you some more specific data? Please input if yes or no\n> ')
         if yes.lower() != 'yes':
